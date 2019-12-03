@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "879005611928",
+    "firebase_url": "https://fooddelivery-97a09.firebaseio.com",
+    "project_id": "fooddelivery-97a09",
+    "storage_bucket": "fooddelivery-97a09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879005611928:android:2030a207ad4b93bb185ded",
+        "android_client_info": {
+          "package_name": "com.kittipong.projectnative2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879005611928-nbcnjg85p8utqvdah5kecen84at6u5ls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kittipong.projectnative2",
+            "certificate_hash": "97aee02c5ca58bad50adc45714106525710e4ce0"
+          }
+        },
+        {
+          "client_id": "879005611928-k7cl1hdiul47kgrlqkm5vh6vd219jqql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRC4X8BUJ3JWLvwVgkPgbbUwih02LThWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879005611928-k7cl1hdiul47kgrlqkm5vh6vd219jqql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879005611928:android:ab968b467dfcbc8d185ded",
+        "android_client_info": {
+          "package_name": "com.kittipong.projectnativeiii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879005611928-239f6jbvmncva7up87qut0pmlraaafsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kittipong.projectnativeiii",
+            "certificate_hash": "97aee02c5ca58bad50adc45714106525710e4ce0"
+          }
+        },
+        {
+          "client_id": "879005611928-k7cl1hdiul47kgrlqkm5vh6vd219jqql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRC4X8BUJ3JWLvwVgkPgbbUwih02LThWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879005611928-k7cl1hdiul47kgrlqkm5vh6vd219jqql.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
