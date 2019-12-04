@@ -1,5 +1,6 @@
 package com.kittipong.projectnative2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private void testFireStore(){
         final String TAG = "testFireStore";
         FirebaseFirestore db = FirebaseFirestore.getInstance();
-        db.collection("users")
+        db.collection("recommended")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @Override
@@ -63,6 +66,10 @@ public class MainActivity extends AppCompatActivity {
                             Log.d(TAG, "signInWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUI(user);
+
+                            Intent intent = new Intent(MainActivity.this, Resctivity.class);
+                            startActivity(intent);
+//                            nextPage();
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.getException());
@@ -87,21 +94,24 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        if(currentUser != null){
+        if (currentUser != null) {
             updateUI(currentUser);
         }
     }
-
     public void updateUI(FirebaseUser currentUser){
         final String TAG = "updateUI";
         TextView loginName = findViewById(R.id.textView);
         if(currentUser != null){
             Log.d(TAG, currentUser.getEmail());
-
             loginName.setText(currentUser.getEmail());
+
         }
         else{
             loginName.setText("");
         }
     }
+//    public void nextPage(){
+//        Intent login = new Intent(MainActivity.this,RestaurantList.class);
+//        startActivity(login);
+//    }
 }
