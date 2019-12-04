@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">879005611928-k7cl1hdiul47kgrlqkm5vh6vd219jqql.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fooddelivery-97a09.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">879005611928</string>
+    <string name="google_api_key" translatable="false">AIzaSyCRC4X8BUJ3JWLvwVgkPgbbUwih02LThWk</string>
+    <string name="google_app_id" translatable="false">1:879005611928:android:2030a207ad4b93bb185ded</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCRC4X8BUJ3JWLvwVgkPgbbUwih02LThWk</string>
+    <string name="google_storage_bucket" translatable="false">fooddelivery-97a09.appspot.com</string>
+    <string name="project_id" translatable="false">fooddelivery-97a09</string>
+</resources>
